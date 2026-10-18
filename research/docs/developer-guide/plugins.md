@@ -1325,6 +1325,22 @@ Gateway swaps in a new session key (`/new`, `/reset`)
 
 ignored
 
+[`on_session_delete`](/docs/user-guide/features/hooks#on_session_delete)
+
+A session delete or deliberate archive commits (every surface, sweeps, prune)
+
+`session_id: str, reason: str, profile: str | None`, optional `deleted_ids: list[str]`, `sessions_dir: str`
+
+ignored
+
+[`post_compaction`](/docs/user-guide/features/hooks#post_compaction)
+
+A compaction committed (any path: auto, `/compress`, gateway, Codex, micro, prune)
+
+`session_id: str, old_session_id: str, kind: str, reason: str, before_tokens: int | None, after_tokens: int | None, messages_removed: int | None`
+
+ignored
+
 [`gateway_platform_event`](/docs/user-guide/features/hooks#gateway_platform_event)
 
 An authorized platform-native event is normalized at the gateway boundary (Telegram reactions currently)
