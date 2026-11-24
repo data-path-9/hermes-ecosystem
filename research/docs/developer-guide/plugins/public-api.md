@@ -1061,3 +1061,21 @@ user-guide/features/plugins.md § A plugin with its own chat client
 `finish`
 
 user-guide/features/plugins.md § A plugin with its own chat client
+
+`hermes_cli.profiles_run_elsewhere`
+
+`mark_profile_run_elsewhere`
+
+user-guide/multi-profile-gateways.md § Profiles a plugin runs elsewhere
+
+`hermes_cli.profiles_run_elsewhere`
+
+`clear_profile_run_elsewhere`
+
+user-guide/multi-profile-gateways.md § Profiles a plugin runs elsewhere
+
+`hermes_cli.profiles_run_elsewhere`
+
+`run_elsewhere`
+
+user-guide/multi-profile-gateways.md § Profiles a plugin runs elsewhere
